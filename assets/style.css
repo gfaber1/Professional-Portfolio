@@ -194,12 +194,7 @@ footer {
   .item:last-child {
     flex-grow: 1;
   }
-.item::content {
-  flex-grow: 1;
-}
-.item:first-child {
-  flex-grow: 2;
-}
+
 
 }
 
