@@ -1,0 +1,213 @@
+body{
+  height: 100%;
+  background: rgb(131,58,180);
+ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+ 
+ padding: 20px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+ 
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+span {
+    color:#c52b63 ;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  
+}
+
+
+
+
+/*header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color-scheme: white;
+  background-color: rgba(252,176,69, 0) ;
+}*/
+
+.nav :hover {
+    color:rgba(252,176,69,1);
+    text-shadow: 1px 1px 3px 1px  rgba(252,176,69,1);
+    
+}
+
+
+.hero-img {
+ position: absolute;
+ 
+ object-fit: cover;
+ 
+}
+
+/* Place text in the middle of the image */
+
+
+.about {
+    background-color: white rgba(255, 255, 255, 0.9);
+    border-color: black;
+    border-style:solid;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+    margin-left: 10%;  
+    margin-right: 10%;
+    text-shadow: 3px 3px 3px 3px  black;
+}
+
+
+
+
+  h2 {
+    
+    font-size:  200%;
+    font-style: italic;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  h3 {
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .work-head {
+    background-color : rgba(255, 255, 255, 0.6);
+    
+    outline-width: 2px;
+    text-align: center;
+   border-radius: 5px;
+   margin-left: 20px;
+   margin-right: 20px;
+   position: absolute;
+   
+  }
+
+main {
+  margin: auto;
+  max-width: 960px;
+}
+
+.my-house {
+ margin-left: 35%;
+}
+
+a :hover{
+    
+    box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  font-weight: bolder;
+}
+  .top-project {
+     width: 500px;
+  height: 400px;
+  background-size: cover;
+  }
+
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+    padding-top: 50px;
+    
+    
+   /* align-items: flex-start;*/
+    
+  }
+
+  .item {
+    padding: 10px;
+    
+  }
+
+  .contact {
+    text-align: center;
+    margin-top: 40px;
+    
+  }
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  /* on tablets, set columns to only be 50% of the width and not grow 
+  .item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* select the last child to grow to full width if it has space to grow */
+  .item:last-child {
+    flex-grow: 1;
+  }
+.item::content {
+  flex-grow: 1;
+}
+
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  header {
+    width: 100%;
+  }
+
+  .item {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+
+  .item:last-child {
+    flex-grow: 1;
+  }
+.item::content {
+  flex-grow: 1;
+}
+.item:first-child {
+  flex-grow: 2;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
+
+
