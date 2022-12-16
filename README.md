@@ -8,11 +8,9 @@ This is my portfolio for all of my projects. I will be updating it as I learn mo
 
 
 ## usage 
+![pro portfolio](https://user-images.githubusercontent.com/119138458/208029806-d686c80e-81fb-446c-a064-b1a448a01020.jpg)
 
-![ScreenShot][def]
 
-Format: ![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/gmfab/repo/Professional-Portfolio/assets/images/pro%20portfolio.jpg?version%3D1671168807447)
 ## License 
 Refer to Repo
 
-[def]: ../Professional-Portfolio/assets/images/pro%20portfolio.jpg
