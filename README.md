@@ -10,3 +10,6 @@ This is my portfolio for all of my projects. I will be updating it as I learn mo
 ## usage 
 
 ![ScreenShot](../Professional-Portfolio/assets/images/Screenshot%202022-12-15%20221905.png)
+
+## License 
+Refer to Repo
